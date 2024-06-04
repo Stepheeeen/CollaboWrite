@@ -5,9 +5,15 @@ import tw from 'twrnc'
 
 export default function App() {
   return (
-    <View style={tw`bg-black h-full w-full flex-1 justify-center items-center`}>
-      <Text style={tw`text-[20px] text-white`}>I Love youuuu❤️😭</Text>
-      <StatusBar style="auto" />
+    <View style={tw`bg-white h-full w-full flex-1 justify-center items-center relative`}>
+      <View style={tw`absolute bottom-[30px] w-[95%] p-4 flex justify-center bg-black rounded-md`}>
+        <View style={tw`flex w-full flex-row justify-around`}>
+          <Text style={tw`text-[18px] text-white`}>Link</Text>
+          <Text style={tw`text-[18px] text-white`}>Name</Text>
+          <Text style={tw`text-[18px] text-white`}>icon</Text>
+          <Text style={tw`text-[18px] text-white`}>Link</Text>
+        </View>
+      </View>
     </View>
   );
 }
