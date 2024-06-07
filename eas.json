@@ -3,15 +3,30 @@
       "development": {
         "developmentClient": true,
         "distribution": "internal",
-        "image": "default"
+        "android": {
+          "image": "default"
+        },
+        "ios": {
+          "image": "default"
+        }
       },
       "preview": {
         "distribution": "internal",
-        "image": "default"
+        "android": {
+          "image": "default"
+        },
+        "ios": {
+          "image": "default"
+        }
       },
       "production": {
         "distribution": "store",
-        "image": "default"
+        "android": {
+          "image": "default"
+        },
+        "ios": {
+          "image": "default"
+        }
       }
     },
     "submit": {
