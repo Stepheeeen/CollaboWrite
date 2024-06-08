@@ -11,7 +11,7 @@ export default function App() {
           <Text style={tw`text-[18px] text-white`}>Link</Text>
           <Text style={tw`text-[18px] text-white`}>Name</Text>
           <Text style={tw`text-[18px] text-white`}>icon</Text>
-          <Text style={tw`text-[18px] text-white`}>Link</Text>
+          <Text style={tw`text-[18px] text-white`}>smth</Text>
         </View>
       </View>
     </View>

@@ -3,6 +3,8 @@
     "name": "Nexus",
     "slug": "nexus-2kbjoho-k4jlyi4lzqksa",
     "version": "1.0.0",
+    "platforms": ["ios", "android", "web"],
+    "sdkVersion": "48.0.0",
     "extra": {
       "eas": {
         "projectId": "2c1462fb-7edb-454d-b7c3-d2d14aeb8ee0"
